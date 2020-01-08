@@ -10,3 +10,13 @@ The tutorial will cover the following tasks:
   3.	Modelling
   4.	Evaluation of different ML algorithms
   5.	Next steps
+  
+# A Brief Look At The Dataset:
+The dataset is stored in a csv format. It contains 31 columns. There is 1 target variable and 30 potential predictors (potential because we may remove features that have no correlation with the target variable). The creator of the dataset could not provide the original features due to confidentiality issues. Thus, the creator has provided us with PCA-transformed features. Hence all features are numerical.
+Now it’s time for EDA!
+
+# Exploring The Data:
+There are 31 columns in the dataset. The names of the columns are
+ 
+The PCA-transformed features are V1-V28. Features like Time, Amount and Class have not been transformed.
+
