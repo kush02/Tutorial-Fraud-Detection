@@ -20,5 +20,5 @@ Now it’s time for EDA!
 # Exploring The Data:
 There are 31 columns in the dataset. The names of the columns are
  
-The PCA-transformed features are *V1-V28*. Features like Time, Amount and Class have not been transformed.
+The PCA-transformed features are *V1-V28*. Features like *Time*, *Amount* and *Class* have not been transformed.
 
