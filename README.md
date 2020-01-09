@@ -165,7 +165,7 @@ The above is a snippet of the entire tree.
 # Next Steps:
 The data science workflow is an iterative process. You will almost always get better results if you refine the pipeline continuously. To this end, some of the next steps I would recommend are:
 
-  1.	Perform more feature engineering. I completely some ignored features that might help in predicting fraud. For instance, looking at       the difference of V5 and V15 might be an interesting feature. 
+  1.	Perform more feature engineering. I completely some ignored features that might help in predicting fraud. For instance, looking at       the difference of *V5* and *V15* might be an interesting feature. 
   2.	I only trained two models. Usually, multiple models are run in industry and form an ensemble. This ensemble makes better                 predictions than any single model. You can experiment with different models and various ensemble of models.
   3.	I ran a very conservative hyperparameter search because I wanted to demonstrate how to do it. The predictive power of the               classifier will improve quite drastically by tuning more hyperparameters with a larger grid search. However, a larger grid search       means that you are training exponentially more models which will take a lot of time and memory.
   4.	Try a different number of cross-validation folds. Traditionally, the number of folds is 5 or 10.
