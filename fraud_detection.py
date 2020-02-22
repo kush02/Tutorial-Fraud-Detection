@@ -220,7 +220,7 @@ def plot_feature_importances(feature_names,importance,name=""):
 		output: bar plot
 	"""
 
-	# put features and importance values in a DataFrame. Take the magnitude of the importance to know the most influential features
+	# put features and importance values in a DataFrame.
 	feature_importances = pd.DataFrame({'feature':feature_names, 'importance':importance.flatten()})
 
 	# sort DataFrame in descending order to see the most influential features
