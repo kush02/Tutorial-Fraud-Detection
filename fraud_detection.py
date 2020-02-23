@@ -321,7 +321,7 @@ def main():
 	rf = RandomForestClassifier(random_state=42,oob_score=True)
 	parameters = {'n_estimators':[10,20],'criterion':['gini','entropy'],'max_depth':[5,10],'min_samples_split':[5,10]}
 
-	# Find best Logistic Regression model using grid search with cross validation
+	# Find best Random Forest model using grid search with cross validation
 	best_model_rf = grid_search(rf,parameters,X_train_res,y_train_res,metric='recall',cv=5,verbose=5)
 	print("Best Random Forest model: ", best_model_rf)
 
