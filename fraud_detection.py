@@ -335,7 +335,7 @@ def main():
 	plot_roc_curve(y_test,best_model_rf.predict_proba(X_test)[:,1],name="Random Forest") 
 	sklearn_precision_recall_curve(best_model_rf, X_test, y_test)
 
-	# Most informative, discriminative features for Logistic Regression model
+	# Most informative, discriminative features for Random Forest model
 	plot_feature_importances(X.columns,best_model_rf.feature_importances_,name='Random Forest')
 	
 	# Visualize a decision tree in the random forest. Use onlineconvertfree.com to convert dot file to png
